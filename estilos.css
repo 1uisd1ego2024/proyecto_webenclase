@@ -1,0 +1,410 @@
+body{
+margin: 0;
+padding:0;
+background-image:url(imagen_fondo/foto_gimnasio2.jpg);
+
+background-size:cover;
+background-position:center;
+
+}
+
+.caja_parajale{
+  
+background-image:url(imagen_fondo/foto_gimnasio.jpg);
+
+height: 110vh;
+background-size:contain;
+background-position:center;
+}
+
+.textoprincipal{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.fechanacimiento{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+    width:11.2rem;
+}
+
+.fechanacimiento:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+}
+
+
+.fechamatricula{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+    width:11.2rem;
+}
+
+
+.fechamatricula:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+}
+.titulos{
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+
+}
+
+.textonombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+.textoapellido{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+.textocedula{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+
+
+
+.textocorreo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+
+
+.textotelefono{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+
+.textofechanacimiento{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+
+.textocontrasegna{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+.textoconfirmarcontrasegna{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+
+.botonregistrarse{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.5s;
+    border-style: none;
+    width:14rem;
+    height:2rem;
+    margin-left:-1rem;
+}
+
+
+.botonregistrarse:hover{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+transition-duration: 0.5s;
+width:14rem;
+height:2rem;
+}
+
+
+
+.textosexo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+.textovalorcombobox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+.comboboxsexo{
+background-color: white;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+box-shadow:3px 3px black;
+transition-duration: 0.5s;
+width:11.6rem;
+}
+
+.comboboxsexo:hover{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+    }
+
+
+
+    .textoplan{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color:white;
+    }
+
+
+    .textoplancombobox{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        box-shadow:3px 3px black;
+        transition-duration: 0.5s;
+        width:11.6rem;
+
+    }
+
+    .textoplancombobox:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        box-shadow:3px 3px white;
+        transition-duration: 0.5s;
+
+
+    }
+
+
+
+    
+.textofechamatricula{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.textofechainicio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+
+}
+
+.textonotas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.75rem;
+    font-weight: bolder;
+    color: black;
+    margin-left:-7rem;
+
+}
+
+
+.textoasteriscos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.2rem;
+    font-weight: bold;
+
+}
+.formulario{
+  
+
+margin: auto;
+margin-left:32rem;
+
+}
+
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+
+}
+
+
+.nombre:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+
+}
+
+
+
+.apellidos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+
+}
+
+
+.apellidos:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+
+}
+
+
+.correo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+
+}
+
+
+.correo:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+
+}
+
+
+.psw1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+
+
+}
+
+.psw1:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+
+
+}
+
+
+
+.psw2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+
+
+}
+
+.psw2:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+
+
+}
+
+
+
+.telefono{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+
+
+}
+
+.telefono:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+
+
+}
+
+.cedula{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px black;
+    transition-duration: 0.5s;
+
+
+}
+
+.cedula:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow:3px 3px white;
+    transition-duration: 0.5s;
+
+
+}
+
+
+.cajatexto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+
+}
+
+.bienvenido{
+    text-align: center;
+    color: white;
+    font-size:3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.bienvenido2{
+text-align: center;
+    color: white;
+    font-size:3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top:8.2rem;
+}
+
+.deslizar{
+    text-align: center;
+    color: white;
+    font-size:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:10rem;
+    font-weight: bold;
+
+}
